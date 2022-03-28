@@ -1,8 +1,4 @@
 # AWS Application Load Balancer with Terraform
-
-## Steps to run the terraform files
-- Create [AWS ALB Application Load Balancer Terraform Module](https://registry.terraform.io/modules/terraform-aws-modules/alb/aws/latest)
-
 ## Step-01: Execute Terraform Commands
 ```t
 # Terraform Initialize
@@ -27,7 +23,6 @@ Observation:
 5. Access sample app using Load Balancer DNS Name
 
 ## Step-02: Access Application
-# Example:  To Access Application
 ```t
 App-1
 http://hr-stag-alb-1575108738.us-east-1.elb.amazonaws.com 
@@ -38,7 +33,6 @@ http://hr-stag-alb-1575108738.us-east-1.elb.amazonaws.com
 http://hr-stag-alb-1575108738.us-east-1.elb.amazonaws.com/app2/index.html
 http://hr-stag-alb-1575108738.us-east-1.elb.amazonaws.com/app2/metadata.html
 ```
-
 ## Step-03: Cleanup Terraform Application
 ```t
 # Terraform Destroy
